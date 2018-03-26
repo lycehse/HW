@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Висков Василий"
+  },
+  "text": {
+    "more": "Помимо упомянутых 4-х групп существуют 2-е группы-\"изгоя\", ни коим образом не связанные с основными. В эти группы входят\nслучайные знакомые (олимпиады, концерты), промоутеры и PR-работники, т.д. Можно заметить очевидную связь между группами, что\nговорит о отсутствии изолированности групп от других и \"тесноте мира\".",
+    "intro": "Список друзей можно разбить на 4-е группы, ранжированные по количеству общих\nдрузей. Фактически, эти группы - круг общения в определенный период времени\n(лицей, средняя школа, лагеря).",
+    "title": "Анализ списка друзей"
+  },
+  "legend": {
+    "edgeLabel": "Связь между двумя людьми из списка друзей",
+    "colorLabel": "Группа людей, имеющих большое количество общих друзей, из списка друзей",
+    "nodeLabel": "Человек из списка друзй"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
